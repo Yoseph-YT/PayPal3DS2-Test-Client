@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "paypal3ds2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Yoseph-YT/PayPal3DS2.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "376b380eb7a4e86a5eacde7933083edf5c118cbe"
+      }
+    }
+  ],
+  "version" : 2
+}
