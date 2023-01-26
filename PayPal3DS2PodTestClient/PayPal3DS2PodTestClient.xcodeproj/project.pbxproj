@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27AD1BA3D50207B38AAD5CAE /* Pods_PayPal3DS2PodTestClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7200558D9BD2E3680744CC /* Pods_PayPal3DS2PodTestClient.framework */; };
+		BCD936BE2983055E00657174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936BD2983055E00657174 /* AppDelegate.swift */; };
+		BCD936C02983055E00657174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936BF2983055E00657174 /* SceneDelegate.swift */; };
+		BCD936C22983055E00657174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936C12983055E00657174 /* ViewController.swift */; };
+		BCD936C52983055E00657174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD936C32983055E00657174 /* Main.storyboard */; };
+		BCD936C72983056100657174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD936C62983056100657174 /* Assets.xcassets */; };
+		BCD936CA2983056100657174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD936C82983056100657174 /* LaunchScreen.storyboard */; };
+		BCD936D52983056100657174 /* PayPal3DS2PodTestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936D42983056100657174 /* PayPal3DS2PodTestClientTests.swift */; };
+		BCD936DF2983056100657174 /* PayPal3DS2PodTestClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936DE2983056100657174 /* PayPal3DS2PodTestClientUITests.swift */; };
+		BCD936E12983056100657174 /* PayPal3DS2PodTestClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD936E02983056100657174 /* PayPal3DS2PodTestClientUITestsLaunchTests.swift */; };
+		CC0B5E93FB8F283791E6D03F /* Pods_PayPal3DS2PodTestClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF656C4181F0F243923CC265 /* Pods_PayPal3DS2PodTestClientTests.framework */; };
+		E0E74632B11A80DB744A65CA /* Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BAE34883104A330D6A9157 /* Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD936D12983056100657174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD936B22983055E00657174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD936B92983055E00657174;
+			remoteInfo = PayPal3DS2PodTestClient;
+		};
+		BCD936DB2983056100657174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD936B22983055E00657174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD936B92983055E00657174;
+			remoteInfo = PayPal3DS2PodTestClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049B3DBBD574F76DD6F1F26C /* Pods-PayPal3DS2PodTestClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClient.debug.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClient/Pods-PayPal3DS2PodTestClient.debug.xcconfig"; sourceTree = "<group>"; };
+		10BAE34883104A330D6A9157 /* Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B2B4F6EEE40BF2E5190603 /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.release.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F6D6003EABB5E4611EA82F3 /* Pods-PayPal3DS2PodTestClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClient.release.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClient/Pods-PayPal3DS2PodTestClient.release.xcconfig"; sourceTree = "<group>"; };
+		8E0F2C17A12FB224C639FB7C /* Pods-PayPal3DS2PodTestClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClientTests.release.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClientTests/Pods-PayPal3DS2PodTestClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F7200558D9BD2E3680744CC /* Pods_PayPal3DS2PodTestClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPal3DS2PodTestClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD936BA2983055E00657174 /* PayPal3DS2PodTestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPal3DS2PodTestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD936BD2983055E00657174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD936BF2983055E00657174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCD936C12983055E00657174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCD936C42983055E00657174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD936C62983056100657174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD936C92983056100657174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD936CB2983056100657174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD936D02983056100657174 /* PayPal3DS2PodTestClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPal3DS2PodTestClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD936D42983056100657174 /* PayPal3DS2PodTestClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPal3DS2PodTestClientTests.swift; sourceTree = "<group>"; };
+		BCD936DA2983056100657174 /* PayPal3DS2PodTestClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPal3DS2PodTestClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD936DE2983056100657174 /* PayPal3DS2PodTestClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPal3DS2PodTestClientUITests.swift; sourceTree = "<group>"; };
+		BCD936E02983056100657174 /* PayPal3DS2PodTestClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPal3DS2PodTestClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF11264B419F88728C01E14E /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.debug.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF656C4181F0F243923CC265 /* Pods_PayPal3DS2PodTestClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPal3DS2PodTestClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF2A6CDC46025CF7C253B23 /* Pods-PayPal3DS2PodTestClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal3DS2PodTestClientTests.debug.xcconfig"; path = "Target Support Files/Pods-PayPal3DS2PodTestClientTests/Pods-PayPal3DS2PodTestClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD936B72983055E00657174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AD1BA3D50207B38AAD5CAE /* Pods_PayPal3DS2PodTestClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936CD2983056100657174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0B5E93FB8F283791E6D03F /* Pods_PayPal3DS2PodTestClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936D72983056100657174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E74632B11A80DB744A65CA /* Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5552C91163C0F872C73D5052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				049B3DBBD574F76DD6F1F26C /* Pods-PayPal3DS2PodTestClient.debug.xcconfig */,
+				5F6D6003EABB5E4611EA82F3 /* Pods-PayPal3DS2PodTestClient.release.xcconfig */,
+				CF11264B419F88728C01E14E /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.debug.xcconfig */,
+				36B2B4F6EEE40BF2E5190603 /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.release.xcconfig */,
+				EAF2A6CDC46025CF7C253B23 /* Pods-PayPal3DS2PodTestClientTests.debug.xcconfig */,
+				8E0F2C17A12FB224C639FB7C /* Pods-PayPal3DS2PodTestClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BC551B1A87972923418FFD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7200558D9BD2E3680744CC /* Pods_PayPal3DS2PodTestClient.framework */,
+				10BAE34883104A330D6A9157 /* Pods_PayPal3DS2PodTestClient_PayPal3DS2PodTestClientUITests.framework */,
+				DF656C4181F0F243923CC265 /* Pods_PayPal3DS2PodTestClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD936B12983055E00657174 = {
+			isa = PBXGroup;
+			children = (
+				BCD936BC2983055E00657174 /* PayPal3DS2PodTestClient */,
+				BCD936D32983056100657174 /* PayPal3DS2PodTestClientTests */,
+				BCD936DD2983056100657174 /* PayPal3DS2PodTestClientUITests */,
+				BCD936BB2983055E00657174 /* Products */,
+				5552C91163C0F872C73D5052 /* Pods */,
+				6BC551B1A87972923418FFD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD936BB2983055E00657174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD936BA2983055E00657174 /* PayPal3DS2PodTestClient.app */,
+				BCD936D02983056100657174 /* PayPal3DS2PodTestClientTests.xctest */,
+				BCD936DA2983056100657174 /* PayPal3DS2PodTestClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD936BC2983055E00657174 /* PayPal3DS2PodTestClient */ = {
+			isa = PBXGroup;
+			children = (
+				BCD936BD2983055E00657174 /* AppDelegate.swift */,
+				BCD936BF2983055E00657174 /* SceneDelegate.swift */,
+				BCD936C12983055E00657174 /* ViewController.swift */,
+				BCD936C32983055E00657174 /* Main.storyboard */,
+				BCD936C62983056100657174 /* Assets.xcassets */,
+				BCD936C82983056100657174 /* LaunchScreen.storyboard */,
+				BCD936CB2983056100657174 /* Info.plist */,
+			);
+			path = PayPal3DS2PodTestClient;
+			sourceTree = "<group>";
+		};
+		BCD936D32983056100657174 /* PayPal3DS2PodTestClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD936D42983056100657174 /* PayPal3DS2PodTestClientTests.swift */,
+			);
+			path = PayPal3DS2PodTestClientTests;
+			sourceTree = "<group>";
+		};
+		BCD936DD2983056100657174 /* PayPal3DS2PodTestClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD936DE2983056100657174 /* PayPal3DS2PodTestClientUITests.swift */,
+				BCD936E02983056100657174 /* PayPal3DS2PodTestClientUITestsLaunchTests.swift */,
+			);
+			path = PayPal3DS2PodTestClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD936B92983055E00657174 /* PayPal3DS2PodTestClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD936E42983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClient" */;
+			buildPhases = (
+				848AD1C55BCF6FED36115F66 /* [CP] Check Pods Manifest.lock */,
+				BCD936B62983055E00657174 /* Sources */,
+				BCD936B72983055E00657174 /* Frameworks */,
+				BCD936B82983055E00657174 /* Resources */,
+				20F792CE129C6283E07EF9BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPal3DS2PodTestClient;
+			productName = PayPal3DS2PodTestClient;
+			productReference = BCD936BA2983055E00657174 /* PayPal3DS2PodTestClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD936CF2983056100657174 /* PayPal3DS2PodTestClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD936E72983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClientTests" */;
+			buildPhases = (
+				70EA9295E36D9D7E9AB535C1 /* [CP] Check Pods Manifest.lock */,
+				BCD936CC2983056100657174 /* Sources */,
+				BCD936CD2983056100657174 /* Frameworks */,
+				BCD936CE2983056100657174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD936D22983056100657174 /* PBXTargetDependency */,
+			);
+			name = PayPal3DS2PodTestClientTests;
+			productName = PayPal3DS2PodTestClientTests;
+			productReference = BCD936D02983056100657174 /* PayPal3DS2PodTestClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD936D92983056100657174 /* PayPal3DS2PodTestClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD936EA2983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClientUITests" */;
+			buildPhases = (
+				C5A3FFCF4E19A53CFD634FF3 /* [CP] Check Pods Manifest.lock */,
+				BCD936D62983056100657174 /* Sources */,
+				BCD936D72983056100657174 /* Frameworks */,
+				BCD936D82983056100657174 /* Resources */,
+				405399B137EC2403EE553631 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD936DC2983056100657174 /* PBXTargetDependency */,
+			);
+			name = PayPal3DS2PodTestClientUITests;
+			productName = PayPal3DS2PodTestClientUITests;
+			productReference = BCD936DA2983056100657174 /* PayPal3DS2PodTestClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD936B22983055E00657174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BCD936B92983055E00657174 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BCD936CF2983056100657174 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BCD936B92983055E00657174;
+					};
+					BCD936D92983056100657174 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BCD936B92983055E00657174;
+					};
+				};
+			};
+			buildConfigurationList = BCD936B52983055E00657174 /* Build configuration list for PBXProject "PayPal3DS2PodTestClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD936B12983055E00657174;
+			productRefGroup = BCD936BB2983055E00657174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD936B92983055E00657174 /* PayPal3DS2PodTestClient */,
+				BCD936CF2983056100657174 /* PayPal3DS2PodTestClientTests */,
+				BCD936D92983056100657174 /* PayPal3DS2PodTestClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD936B82983055E00657174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD936CA2983056100657174 /* LaunchScreen.storyboard in Resources */,
+				BCD936C72983056100657174 /* Assets.xcassets in Resources */,
+				BCD936C52983055E00657174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936CE2983056100657174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936D82983056100657174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20F792CE129C6283E07EF9BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient/Pods-PayPal3DS2PodTestClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient/Pods-PayPal3DS2PodTestClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient/Pods-PayPal3DS2PodTestClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405399B137EC2403EE553631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70EA9295E36D9D7E9AB535C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayPal3DS2PodTestClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848AD1C55BCF6FED36115F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayPal3DS2PodTestClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A3FFCF4E19A53CFD634FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD936B62983055E00657174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD936C22983055E00657174 /* ViewController.swift in Sources */,
+				BCD936BE2983055E00657174 /* AppDelegate.swift in Sources */,
+				BCD936C02983055E00657174 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936CC2983056100657174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD936D52983056100657174 /* PayPal3DS2PodTestClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD936D62983056100657174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD936E12983056100657174 /* PayPal3DS2PodTestClientUITestsLaunchTests.swift in Sources */,
+				BCD936DF2983056100657174 /* PayPal3DS2PodTestClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD936D22983056100657174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD936B92983055E00657174 /* PayPal3DS2PodTestClient */;
+			targetProxy = BCD936D12983056100657174 /* PBXContainerItemProxy */;
+		};
+		BCD936DC2983056100657174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD936B92983055E00657174 /* PayPal3DS2PodTestClient */;
+			targetProxy = BCD936DB2983056100657174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD936C32983055E00657174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD936C42983055E00657174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD936C82983056100657174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD936C92983056100657174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD936E22983056100657174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD936E32983056100657174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD936E52983056100657174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049B3DBBD574F76DD6F1F26C /* Pods-PayPal3DS2PodTestClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayPal3DS2PodTestClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD936E62983056100657174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6D6003EABB5E4611EA82F3 /* Pods-PayPal3DS2PodTestClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayPal3DS2PodTestClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD936E82983056100657174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF2A6CDC46025CF7C253B23 /* Pods-PayPal3DS2PodTestClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPal3DS2PodTestClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPal3DS2PodTestClient";
+			};
+			name = Debug;
+		};
+		BCD936E92983056100657174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0F2C17A12FB224C639FB7C /* Pods-PayPal3DS2PodTestClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPal3DS2PodTestClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPal3DS2PodTestClient";
+			};
+			name = Release;
+		};
+		BCD936EB2983056100657174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF11264B419F88728C01E14E /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayPal3DS2PodTestClient;
+			};
+			name = Debug;
+		};
+		BCD936EC2983056100657174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B2B4F6EEE40BF2E5190603 /* Pods-PayPal3DS2PodTestClient-PayPal3DS2PodTestClientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729JAJ944S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paypal-3DS2.com.PayPal3DS2PodTestClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayPal3DS2PodTestClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD936B52983055E00657174 /* Build configuration list for PBXProject "PayPal3DS2PodTestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD936E22983056100657174 /* Debug */,
+				BCD936E32983056100657174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD936E42983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD936E52983056100657174 /* Debug */,
+				BCD936E62983056100657174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD936E72983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD936E82983056100657174 /* Debug */,
+				BCD936E92983056100657174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD936EA2983056100657174 /* Build configuration list for PBXNativeTarget "PayPal3DS2PodTestClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD936EB2983056100657174 /* Debug */,
+				BCD936EC2983056100657174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD936B22983055E00657174 /* Project object */;
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PayPal3DS2PodTestClient' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PayPal3DS2PodTestClient
+  pod 'PayPal3DS2', :git => "https://github.com/Yoseph-YT/PayPal3DS2.git"
+
+  target 'PayPal3DS2PodTestClientTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PayPal3DS2PodTestClientUITests' do
+    # Pods for testing
+  end
+
+end
